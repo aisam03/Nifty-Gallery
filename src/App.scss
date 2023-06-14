@@ -1,0 +1,78 @@
+body{
+    background-color: black !important;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .gradient{
+        background: linear-gradient(90deg, rgba(38,33,111,1) 0%, rgba(121,9,117,1) 48%, rgba(30,105,162,1) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .heading{
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 12px 0 0;
+        letter-spacing: 10px;
+    }
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80vh;
+    overflow: hidden;
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        .gradient{
+            background: linear-gradient(90deg, rgba(38,33,111,1) 0%, rgba(121,9,117,1) 48%, rgba(30,105,162,1) 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .left-heading{
+            font-size: 72px;
+            font-weight: 600;
+            line-height: 1;
+        }
+        .left-description{
+            font-size: 20px;
+            margin: 24px 0;
+        }
+
+    }
+}
+
+.button{
+    padding: 12px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 60px;
+    width: max-content;
+    cursor: pointer;
+    
+}
+
+.left-btns{
+    display: flex;
+    margin-top: 30px;
+    .primary-btn{
+        background-color: #523280;
+    }
+    .secondry-btn{
+        border: 2px solid #ffff;
+    }
+    .left-secondry-btn{
+        margin-left: 30px;
+    }
+}
+
+.left-infoStats{
+    
+}
